@@ -302,7 +302,7 @@ msgid "BIP32 path for address derivation"
 msgstr "BIP32 ścieżka dla adresu derywacji"
 
 #: www/views/cashScan.html:22
-msgid "XSG Wallets"
+msgid "SAFE Wallets"
 msgstr ""
 
 #: www/views/preferences.html:34
@@ -1897,7 +1897,7 @@ msgid "No wallets eligible for SnowGem Cash support"
 msgstr ""
 
 #: www/views/cashScan.html:44
-msgid "Non eligible XSG wallets"
+msgid "Non eligible SAFE wallets"
 msgstr ""
 
 #: src/js/services/feeService.js:12
