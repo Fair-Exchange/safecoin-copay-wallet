@@ -28,7 +28,7 @@ angular.module('copayApp.controllers').controller('createController',
       $scope.formData.bwsurl = defaults.bws.url;
       $scope.TCValues = lodash.range(2, defaults.limits.totalCopayers + 1);
       $scope.formData.derivationPath = derivationPathHelper.default;
-      $scope.formData.coin = 'xsg';
+      $scope.formData.coin = 'safe';
 
       if (config.cashSupport) $scope.enableCash = true;
 
@@ -97,7 +97,7 @@ angular.module('copayApp.controllers').controller('createController',
 
       */
 
-      if (appConfigService.name == 'snowgem') {
+      if (appConfigService.name == 'safecoin') {
         if (n > 1 && walletService.externalSource.ledger.supported)
           seedOptions.push({
             id: walletService.externalSource.ledger.id,
