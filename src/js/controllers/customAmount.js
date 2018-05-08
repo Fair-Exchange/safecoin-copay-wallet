@@ -40,21 +40,21 @@ angular.module('copayApp.controllers').controller('customAmountController', func
         data.stateParams.amount,
         data.stateParams.currency);
 
-      // Amount in USD or XSG
+      // Amount in USD or SAFE
       var amount = parsedAmount.amount;
       var currency = parsedAmount.currency;
       $scope.amountUnitStr = parsedAmount.amountUnitStr;
 
-      if (currency != 'XSG') {
-        // Convert to XSG or BCH
+      if (currency != 'SAFE') {
+        // Convert to SAFE or BCH
         var config = configService.getSync().wallet.settings;
         var amountUnit = txFormatService.satToUnit(parsedAmount.amountSat);
-        var xsgParsedAmount = txFormatService.parseAmount($scope.wallet.coin, amountUnit, $scope.wallet.coin);
+        var safeParsedAmount = txFormatService.parseAmount($scope.wallet.coin, amountUnit, $scope.wallet.coin);
 
-        $scope.amountBtc = xsgParsedAmount.amount;
-        $scope.altAmountStr = xsgParsedAmount.amountUnitStr;
+        $scope.amountBtc = safeParsedAmount.amount;
+        $scope.altAmountStr = safeParsedAmount.amountUnitStr;
       } else {
-        $scope.amountBtc = amount; // XSG or BCH
+        $scope.amountBtc = amount; // SAFE or BCH
         $scope.altAmountStr = txFormatService.formatAlternativeStr($scope.wallet.coin, parsedAmount.amountSat);
       }
     });
@@ -69,12 +69,12 @@ angular.module('copayApp.controllers').controller('customAmountController', func
 
   $scope.shareAddress = function() {
     if (!platformInfo.isCordova) return;
-    var data = 'snowgem:' + $scope.address + '?amount=' + $scope.amountBtc;
+    var data = 'safecoin:' + $scope.address + '?amount=' + $scope.amountBtc;
     window.plugins.socialsharing.share(data, null, null, null);
   }
 
   $scope.copyToClipboard = function() {
-    return 'snowgem:' + $scope.address + '?amount=' + $scope.amountBtc;
+    return 'safecoin:' + $scope.address + '?amount=' + $scope.amountBtc;
   };
 
 });
