@@ -3,9 +3,9 @@
   "name": "safecoin",
   "description": "A Secure Safecoin Wallet",
   "author": "Safecoin DEV TEAM",
-  "version": "1.0.2",
+  "version": "1.0.0",
   "keywords": [
-    "safecoin",
+    "bitcoin",
     "wallet",
     "bitpay",
     "safecoin",
@@ -13,7 +13,7 @@
     "bitcore"
   ],
   "main": "www/index.html",
-  "title": "Safecoin Copay Wallet",
+  "title": "Safecoin",
   "window": {
     "title": "Safecoin - Safecoin Wallet",
     "icon": "www/img/app/icon.png",
@@ -53,7 +53,7 @@
   "dependencies": {
     "adm-zip": "^0.4.7",
     "android-versions": "^1.2.1",
-    "angular": "1.6.10",
+    "angular": "^1.6.7",
     "bezier-easing": "^2.0.3",
     "bhttp": "^1.2.4",
     "bitauth": "^0.2.1",
@@ -61,7 +61,7 @@
     "bower": "^1.7.9",
     "cordova": "^7.1.0",
     "cordova-android": "^6.4.0",
-    "cordova-clipboard": "^1.1.1",
+    "cordova-clipboard": "1.1.1",
     "cordova-custom-config": "~3.0.5",
     "cordova-ios": "~4.2.1",
     "cordova-ios-requires-fullscreen": "~0.0.2",
@@ -90,7 +90,6 @@
     "cordova-plugin-x-toast": "~2.5.2",
     "cordova-windows": "~5.0.0",
     "express": "^4.11.2",
-    "fileicon": "^0.2.2",
     "fs-extra": "^4.0.2",
     "grunt-angular-gettext": "^2.2.3",
     "grunt-browserify": "^5.0.0",
@@ -139,14 +138,13 @@
     "run:android": "cordova run android --device",
     "run:android-release": "cordova run android --device --release",
     "log:android": "adb logcat | grep chromium",
-    "sign:android": "rm -f platforms/android/build/outputs/apk/release/android-release-signed-aligned.apk && jarsigner -verbose -sigalg SHA1withRSA -digestalg SHA1 -keystore ../safecoin.keystore -signedjar platforms/android/build/outputs/apk/release/android-release-signed.apk platforms/android/build/outputs/apk/release/android-release-unsigned.apk copay_play && $ANDROID_HOME/build-tools/27.0.3/zipalign -v 4 platforms/android/build/outputs/apk/release/android-release-signed.apk platforms/android/build/outputs/apk/release/android-release-signed-aligned.apk",
+    "sign:android": "rm -f platforms/android/build/outputs/apk/release/android-release-signed-aligned.apk && jarsigner -verbose -sigalg SHA1withRSA -digestalg SHA1 -keystore ../safecoin.keystore -signedjar platforms/android/build/outputs/apk/release/android-release-signed.apk platforms/android/build/outputs/apk/release/android-release-unsigned.apk safecoin_play && $ANDROID_HOME/build-tools/26.0.2/zipalign -v 4 platforms/android/build/outputs/apk/release/android-release-signed.apk platforms/android/build/outputs/apk/release/android-release-signed-aligned.apk",
     "test": "echo \"no package tests configured\"",
     "clean": "trash platforms && trash plugins && cordova prepare",
     "unstage-package": "git reset package.json",
     "clean-all": "git clean -dfx"
   },
   "devDependencies": {
-    "cordova": "^6.3.1",
     "grunt": "^1.0.1",
     "ionic": "^3.6.0",
     "trash-cli": "^1.4.0",
