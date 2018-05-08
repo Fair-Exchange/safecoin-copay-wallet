@@ -1,6 +1,6 @@
 {
-  "name": "SnowGem Wallet",
-  "app_id": "com.xsgcom.xsg-wallet-osx",
+  "name": "Safecoin Wallet",
+  "app_id": "com.safecom.safe-wallet-osx",
   "integrations": {
     "cordova": {}
   },
