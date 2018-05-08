@@ -24,7 +24,7 @@ For a list of frequently asked questions please visit the [Copay FAQ](https://gi
 - Push notifications (only available for ios and android versions)
 - Customizable wallet naming and background colors
 - Multiple languages supported
-- Available for [iOS](https://itunes.apple.com/us/app/copay/id951330296), [Android](https://play.google.com/store/apps/details?id=com.xsgcom.xsg-wallet),
+- Available for [iOS](https://itunes.apple.com/us/app/copay/id951330296), [Android](https://play.google.com/store/apps/details?id=com.safecom.safe-wallet),
 [Linux](https://github.com/OleksandrBlack/safecoin-copay-wallet/tags), [Windows](https://github.com/OleksandrBlack/safecoin-copay-wallet/tags) and [OS X](https://github.com/OleksandrBlack/safecoin-copay-wallet/tags) devices
 
 ## Testing in a Browser
@@ -35,7 +35,7 @@ Clone the repo and open the directory:
 
 ```
 git clone https://github.com/OleksandrBlack/safecoin-copay-wallet.git
-cd xsg-wallet
+cd safe-wallet
 ```
 
 Install npm modules
