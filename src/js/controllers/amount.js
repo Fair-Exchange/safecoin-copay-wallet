@@ -1,6 +1,6 @@
 'use strict';
 
-angular.module('copayApp.controllers').controller('amountController', function($scope, $filter, $timeout, $ionicScrollDelegate, $ionicHistory, gettextCatalog, platformInfo, lodash, configService, rateService, $stateParams, $window, $state, $log, txFormatService, ongoingProcess, popupService, bwcError, payproService, profileService, bitcoreXsg, nodeWebkitService) {
+angular.module('copayApp.controllers').controller('amountController', function($scope, $filter, $timeout, $ionicScrollDelegate, $ionicHistory, gettextCatalog, platformInfo, lodash, configService, rateService, $stateParams, $window, $state, $log, txFormatService, ongoingProcess, popupService, bwcError, payproService, profileService, bitcoreSafe, nodeWebkitService) {
   var _id;
   var unitToSatoshi;
   var satToUnit;
@@ -30,15 +30,15 @@ angular.module('copayApp.controllers').controller('amountController', function($
 
       availableUnits = [];
 
-      var hasXSGWallets = profileService.getWallets({
-        coin: 'xsg'
+      var hasSAFEWallets = profileService.getWallets({
+        coin: 'safe'
       }).length;
 
-      if (hasXSGWallets) {
+      if (hasSAFEWallets) {
         availableUnits.push({
-          name: 'SnowGem',
-          id: 'xsg',
-          shortName: 'XSG',
+          name: 'Safecoin',
+          id: 'safe',
+          shortName: 'SAFE',
         });
       }
 
@@ -202,7 +202,7 @@ angular.module('copayApp.controllers').controller('amountController', function($
 
 
     if (availableUnits[unitIndex].isFiat) {
-      // Always return to XSG... TODO?
+      // Always return to SAFE... TODO?
       altUnitIndex = 0;
     } else {
       altUnitIndex = lodash.findIndex(availableUnits, {
