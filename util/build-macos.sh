@@ -16,11 +16,11 @@ if [ -d "$dir" ]; then
 fi
 
 # set up your app name, architecture, and background image file name
-APP_NAME="SnowGem Copay Wallet"
+APP_NAME="Safecoin Copay Wallet"
 rm dmg-background.tiff
-ln -s ../resources/snowgem/mac/dmg-background.tiff dmg-background.tiff
+ln -s ../resources/safecoin/mac/dmg-background.tiff dmg-background.tiff
 rm volume-icon.icns
-ln -s ../resources/snowgem/mac/volume-icon.icns volume-icon.icns
+ln -s ../resources/safecoin/mac/volume-icon.icns volume-icon.icns
 DMG_VOLUME_ICON="volume-icon.icns"
 DMG_BACKGROUND_IMG="dmg-background.tiff"
 
@@ -73,7 +73,7 @@ if [ $SHOULD_SIGN ]
 then
   echo "Signing ${APP_NAME} DMG"
 
-  export IDENTITY="3rd Party Mac Developer Application: SnowGem Foundation"
+  export IDENTITY="3rd Party Mac Developer Application: Safecoin DEV TEAM"
 
   # not need for 'out of app store' distribution (?)
 #  export PARENT_PLIST=parent.plist

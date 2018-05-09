@@ -14,15 +14,15 @@ angular.module('copayApp.services').factory('configService', function(storageSer
 
     // Bitcore wallet service URL
     bws: {
-      url: 'https://bws.snowgem.org/bws/api',
+      url: 'https://bws.safecoin.org/bws/api',  //TODO
     },
 
     download: {
       bitpay: {
         url: 'https://bitpay.com/wallet'
       },
-      snowgem: {
-        url: 'https://github.com/snowgem/snowgem-copay-wallet/releases'
+      safecoin: {
+        url: 'https://github.com/OleksandrBlack/safecoin-copay-wallet/releases'
       }
     },
 
@@ -32,9 +32,9 @@ angular.module('copayApp.services').factory('configService', function(storageSer
         android: 'https://play.google.com/store/apps/details?id=com.bitpay.wallet',
         wp: ''
       },
-      snowgem: {
+      safecoin: {
         ios: 'http://itunes.apple.com/WebObjects/MZStore.woa/wa/viewContentsUserReviews?id=951330296&pageNumber=0&sortOrdering=2&type=Purple+Software&mt=8',
-        android: 'https://play.google.com/store/apps/details?id=com.xsgcom.xsg-wallet',
+        android: 'https://play.google.com/store/apps/details?id=com.safecom.safe-wallet',
         wp: ''
       }
     },
@@ -46,10 +46,10 @@ angular.module('copayApp.services').factory('configService', function(storageSer
       reconnectDelay: 5000,
       idleDurationMin: 4,
       settings: {
-        unitName: 'XSG',
+        unitName: 'SAFE',
         unitToSatoshi: 100000000,
         unitDecimals: 8,
-        unitCode: 'xsg',
+        unitCode: 'safe',
         alternativeName: 'US Dollar',
         alternativeIsoCode: 'USD',
       }
@@ -72,11 +72,11 @@ angular.module('copayApp.services').factory('configService', function(storageSer
     },
 
     rates: {
-      url: 'https://rates.snowgem.org/rates',
+      url: 'https://rates.safecoin.org/rates', //TODO
     },
 
     release: {
-      url: 'https://api.github.com/repos/snowgem/snowgem-copay-wallet/releases/latest'
+      url: 'https://api.github.com/repos/OleksandrBlack/safecoin-copay-wallet/releases/latest'
     },
 
     pushNotificationsEnabled: true,
@@ -150,7 +150,7 @@ angular.module('copayApp.services').factory('configService', function(storageSer
         }
 
         if (configCache.wallet.settings.unitCode == 'bit') {
-          // Convert to XSG. Bits will be disabled
+          // Convert to SAFE. Bits will be disabled
           configCache.wallet.settings.unitName = defaultConfig.wallet.settings.unitName;
           configCache.wallet.settings.unitToSatoshi = defaultConfig.wallet.settings.unitToSatoshi;
           configCache.wallet.settings.unitDecimals = defaultConfig.wallet.settings.unitDecimals;
