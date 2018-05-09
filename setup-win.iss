@@ -2,10 +2,10 @@
 ; SEE THE DOCUMENTATION FOR DETAILS ON CREATING INNO SETUP SCRIPT FILES!
 
 #define MyAppName "Safecoin Copay Wallet"
-#define MyAppVersion "1.0.2"
+#define MyAppVersion "1.0.0"
 #define MyAppPublisher "Safecoin Project"
 #define MyAppURL "https://github.com/OleksandrBlack/safecoin-copay-wallet"
-#define MyAppExeName "Safecoin Copay Wallet.exe"
+#define MyAppExeName "Safecoin.exe"
 #define AppId "804636ee-b017-4cad-8719-e58ac97ffa5c"
 
 [Setup]
