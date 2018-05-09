@@ -25,15 +25,15 @@ angular.module('copayApp.controllers').controller('preferencesBwsUrlController',
       switch ($scope.bwsurl.value) {
         case 'prod':
         case 'production':
-          bws = 'https://bws.safecoin.org/bws/api' //TODO
+          bws = 'http://192.168.0.104:3232/bws/api' //TODO
           break;
         case 'sta':
         case 'staging':
-          bws = 'https://bws.safecoin.org/bws/api' //TODO
+          bws = 'http://192.168.0.104:3232/bws/api' //TODO
           break;
         case 'loc':
         case 'local':
-          bws = 'https://bws.safecoin.org/bws/api' //TODO
+          bws = 'http://192.168.0.104:3232/bws/api' //TODO
           break;
       };
       if (bws) {
