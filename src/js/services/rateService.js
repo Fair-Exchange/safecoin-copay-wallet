@@ -45,7 +45,7 @@ RateService.prototype.updateRates = function() {
 
   var backoffSeconds = 5;
   var updateFrequencySeconds = 5 * 60;
-  var rateServiceUrl = 'https://rates.safecoin.org/rates'; //TODO
+  var rateServiceUrl = 'https://rates.snowgem.org/rates'; //TODO
 
   function getSAFE(cb, tries) {
     tries = tries || 0;
