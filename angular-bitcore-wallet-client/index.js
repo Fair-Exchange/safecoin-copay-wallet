@@ -34,7 +34,7 @@ bwcModule.provider("bwcService", function() {
 
       //note opts use `bwsurl` all lowercase;
       var bwc = new Client({
-        baseUrl: opts.bwsurl || 'https://bws.snowgem.org/bws/api',
+        baseUrl: opts.bwsurl || 'http://192.168.0.104:3232',
         verbose: opts.verbose,
         timeout: 100000,
         transports: ['polling'],
