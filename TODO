@@ -8,5 +8,13 @@ src/js/controllers/preferencesBwsUrl.js
 src/js/services/configService.js
 www/views/tab-create-personal.html
 #
+nvm install v6
 #
 sudo bower install --allow-root
+#
+/var/www/www-root/data/work/safe-wallet/node_modules/asn1.js-rfc5280/index.js
+line 4
+  var asn1 = require('../..');
+to
+  var asn1 = require('../' + '..');
+#
