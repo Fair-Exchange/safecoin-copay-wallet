@@ -207,7 +207,7 @@ angular.module('copayApp.controllers').controller('tabSendController', function(
     });
   };
 
-  $scope.buySnowGem = function() {
+  $scope.buySafeCoin = function() {
     $state.go('tabs.home').then(function() {
       $state.go('tabs.buyandsell');
     });

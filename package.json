@@ -1,9 +1,9 @@
 {
   "//": "        Modify it in the app-template directory",
   "name": "safecoin",
-  "description": "A Secure Safecoin Wallet",
-  "author": "Safecoin DEV TEAM",
-  "version": "1.0.0",
+  "description": "A Secure SafeCoin Wallet",
+  "author": "SafeCoin Foundation",
+  "version": "1.0.2",
   "keywords": [
     "safecoin",
     "wallet",
@@ -13,9 +13,9 @@
     "bitcore"
   ],
   "main": "www/index.html",
-  "title": "Safecoin Copay Wallet",
+  "title": "SafeCoin Copay Wallet",
   "window": {
-    "title": "Safecoin - Safecoin Wallet",
+    "title": "SafeCoin - SafeCoin Wallet",
     "icon": "www/img/app/icon.png",
     "toolbar": false,
     "show": true,
@@ -40,11 +40,11 @@
   "homepage": "https://safecoin.org",
   "license": "MIT",
   "repository": {
-    "url": "git://github.com/OleksandrBlack/safecoin-copay-wallet.git",
+    "url": "git://github.com/safecoin/safecoin-copay-wallet.git",
     "type": "git"
   },
   "bugs": {
-    "url": "https://github.com/OleksandrBlack/safecoin-copay-wallet/issues"
+    "url": "https://github.com/safecoin/safecoin-copay-wallet/issues"
   },
   "engines": {
     "node": "6",
@@ -57,7 +57,7 @@
     "bezier-easing": "^2.0.3",
     "bhttp": "^1.2.4",
     "bitauth": "^0.2.1",
-    "bitcore-wallet-client-safe": "git+https://github.com/OleksandrBlack/bitcore-wallet-client-safe.git",
+    "bitcore-wallet-client-safe": "git+https://github.com/safecoin/bitcore-wallet-client-safe.git",
     "bower": "^1.7.9",
     "cordova": "^7.1.0",
     "cordova-android": "^6.4.0",
@@ -139,7 +139,7 @@
     "run:android": "cordova run android --device",
     "run:android-release": "cordova run android --device --release",
     "log:android": "adb logcat | grep chromium",
-    "sign:android": "rm -f platforms/android/build/outputs/apk/release/android-release-signed-aligned.apk && jarsigner -verbose -sigalg SHA1withRSA -digestalg SHA1 -keystore ../safecoin.keystore -signedjar platforms/android/build/outputs/apk/release/android-release-signed.apk platforms/android/build/outputs/apk/release/android-release-unsigned.apk Safecoin && $ANDROID_HOME/build-tools/27.0.3/zipalign -v 4 platforms/android/build/outputs/apk/release/android-release-signed.apk platforms/android/build/outputs/apk/release/android-release-signed-aligned.apk",
+    "sign:android": "rm -f platforms/android/build/outputs/apk/release/android-release-signed-aligned.apk && jarsigner -verbose -sigalg SHA1withRSA -digestalg SHA1 -keystore ../safecoin.keystore -signedjar platforms/android/build/outputs/apk/release/android-release-signed.apk platforms/android/build/outputs/apk/release/android-release-unsigned.apk copay_play && $ANDROID_HOME/build-tools/27.0.3/zipalign -v 4 platforms/android/build/outputs/apk/release/android-release-signed.apk platforms/android/build/outputs/apk/release/android-release-signed-aligned.apk",
     "test": "echo \"no package tests configured\"",
     "clean": "trash platforms && trash plugins && cordova prepare",
     "unstage-package": "git reset package.json",

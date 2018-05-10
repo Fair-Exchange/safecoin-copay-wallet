@@ -12,7 +12,7 @@ Segurança de multi-assinaturas intuitiva para carteiras pessoais ou compartilha
 Fácil fluxo de propostas de gastos para carteiras compartilhadas e pagamentos agrupados
 Geração de endereço Hierarchical deterministic (HD) e backups de carteiras 
 Segurança baseada em dispositivo: todas as chaves privadas são armazenadas localmente e não na nuvem
-Suporte para carteiras de testes na Safecoin testnet
+Suporte para carteiras de testes na SafeCoin testnet
 Acesso síncrono entre todas as principais plataformas móveis e desktops
 Suporte a protocolo de pagamento (BIP70-BIP73): solicitações de pagamento facilmente identificadas e pagamentos seguros em safecoins verificáveis
 Suporte para mais de 150 opções de moedas e denominação de unidades em SAFE ou bits

@@ -1,11 +1,11 @@
 <?xml version='1.0' encoding='utf-8'?>
-<widget android-versionCode="383012" id="com.safecom.safe" ios-CFBundleVersion="1.0.0" version="1.0.0">
-    <name>Safecoin Wallet</name>
+<widget android-versionCode="383012" id="com.safecom.safe" ios-CFBundleVersion="1.0.2" version="1.0.2">
+    <name>SafeCoin Wallet</name>
     <description>
-      Safecoin Wallet
+      SafeCoin Wallet
     </description>
-    <author email="fair-exchange@protonmail.com" href="https://safecoin.org">
-        Safecoin DEV TEAM
+    <author email="community@safecoin.org" href="https://safecoin.org">
+        SafeCoin Foundation
     </author>
     <content src="index.html" />
     <access origin="*" />
@@ -13,11 +13,11 @@
     <preference name="iosPersistentFileLocation" value="Library" />
     <preference name="DisallowOverscroll" value="true" />
     <preference name="HideKeyboardFormAccessoryBar" value="true" />
-    <preference name="WindowsStoreIdentityName" value="18C7659D.Copay-SecureSafecoinWallet" />
-    <preference name="WindowsStoreDisplayName" value="Safecoin Wallet - Secure Safecoin Wallet" />
+    <preference name="WindowsStoreIdentityName" value="18C7659D.Copay-SecureSafeCoinWallet" />
+    <preference name="WindowsStoreDisplayName" value="SafeCoin Wallet - Secure SafeCoin Wallet" />
     <preference name="StatusBarBackgroundColor" value="#192c3a" />
     <preference name="BackupWebStorage" value="none" />
-    <preference name="windows-target-version" value="1.0.0" />
+    <preference name="windows-target-version" value="10.0" />
     <preference name="Orientation" value="default" />
     <preference name="cordova-custom-config-stoponerror" value="true" />
     <preference name="StatusBarOverlaysWebView" value="true" />

@@ -14,7 +14,7 @@ angular.module('copayApp.services').factory('configService', function(storageSer
 
     // Bitcore wallet service URL
     bws: {
-      url: 'http://127.0.0.1:3232/bws/api',  //TODO
+      url: 'https://bws.safecoin.org/bws/api',
     },
 
     download: {
@@ -22,7 +22,7 @@ angular.module('copayApp.services').factory('configService', function(storageSer
         url: 'https://bitpay.com/wallet'
       },
       safecoin: {
-        url: 'https://github.com/OleksandrBlack/safecoin-copay-wallet/releases'
+        url: 'https://github.com/safecoin/safecoin-copay-wallet/releases'
       }
     },
 
@@ -72,11 +72,11 @@ angular.module('copayApp.services').factory('configService', function(storageSer
     },
 
     rates: {
-      url: 'https://rates.snowgem.org/rates', //TODO
+      url: 'https://rates.safecoin.org/rates',
     },
 
     release: {
-      url: 'https://api.github.com/repos/OleksandrBlack/safecoin-copay-wallet/releases/latest'
+      url: 'https://api.github.com/repos/safecoin/safecoin-copay-wallet/releases/latest'
     },
 
     pushNotificationsEnabled: true,

@@ -12,7 +12,7 @@ Intuïtieve multisignature beveiliging voor persoonlijke of gedeelde rekeningen
 Eenvoudig uitgaven voorstellen voor gedeelde rekeningen en groep betalingen
 Hiërarchische deterministische (HD) adres generatie en rekening back-ups 
 Apparaat gebaseerde beveiliging: alle persoonlijke sleutels zijn lokaal opgeslagen, niet in de cloud
-Ondersteuning voor Safecoin testnet rekeningen
+Ondersteuning voor SafeCoin testnet rekeningen
 Synchroniseert toegang tot alle grote mobiele en desktop platforms
 Betaling-protocolondersteuning (BIP70-BIP73): gemakkelijk identificeerbare betalingsaanvragen en verifieerbare veilige safecoin betalingen
 Ondersteuning voor 150 + valuta prijsopties en eenheid denominatie in SAFE of bits

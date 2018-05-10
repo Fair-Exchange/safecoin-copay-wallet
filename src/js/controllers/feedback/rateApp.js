@@ -39,9 +39,9 @@ angular.module('copayApp.controllers').controller('rateAppController', function(
     var defaults = configService.getDefaults();
     var url;
     if (isAndroid)
-      url = $scope.appName == 'Safecoin Wallet' ? defaults.rateApp.copay.android : defaults.rateApp.safecom.android;
+      url = $scope.appName == 'SafeCoin Wallet' ? defaults.rateApp.copay.android : defaults.rateApp.safecom.android;
     if (isIOS)
-      url = $scope.appName == 'Safecoin Wallet' ? defaults.rateApp.copay.ios : defaults.rateApp.safecom.ios;
+      url = $scope.appName == 'SafeCoin Wallet' ? defaults.rateApp.copay.ios : defaults.rateApp.safecom.ios;
 
     externalLinkService.open(url);
     $state.go('tabs.rate.complete', {

@@ -1,5 +1,5 @@
 {
-  "name": "Safecoin Wallet",
+  "name": "SafeCoin Wallet",
   "app_id": "com.safecom.safe-wallet-osx",
   "integrations": {
     "cordova": {}

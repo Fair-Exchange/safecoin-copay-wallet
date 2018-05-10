@@ -12,7 +12,7 @@ Intuicyjne bezpieczeństwo dzięki multipodpisom dla portfeli prywatnych i wspó
 Proste zlecenia płatności dla współdzielonych portfeli i płatności grupowych
 Protokół HD (Hierarchical deterministic) do generowania adresów i kopii zapasowych portfela 
 Zabezpieczenia: wszystkie klucze prywatne przechowywane lokalnie, a nie w chmurze
-Wsparcie dla Safecoin testnet wallets
+Wsparcie dla SafeCoin testnet wallets
 Jednoczesny dostęp ze wszystkich głównych platform mobilnych i stacjonarnych
 Wsparcie protokołów płatności (BIP70-BIP73): łatwe do zidentyfikowania wnioski o płatność i bezpieczne, weryfikowalne płatności safecoin
 Wsparcie dla wyświetlania ponad 150 walut w jednostkach SAFE lub bit

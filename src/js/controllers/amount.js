@@ -36,7 +36,7 @@ angular.module('copayApp.controllers').controller('amountController', function($
 
       if (hasSAFEWallets) {
         availableUnits.push({
-          name: 'Safecoin',
+          name: 'SafeCoin',
           id: 'safe',
           shortName: 'SAFE',
         });

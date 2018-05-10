@@ -12,7 +12,7 @@ Intuitive multisignature security for personal or shared wallets
 Easy spending proposal flow for shared wallets and group payments
 Hierarchical deterministic (HD) address generation and wallet backups 
 Device-based security: all private keys are stored locally, not in the cloud
-Support for Safecoin testnet wallets
+Support for SafeCoin testnet wallets
 Synchronous access across all major mobile and desktop platforms
 Payment protocol (BIP70-BIP73) support: easily-identifiable payment requests and verifiably secure safecoin payments
 Support for 150+ currency pricing options and unit denomination in SAFE or bits

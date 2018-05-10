@@ -233,7 +233,7 @@ msgid "Anyone with your backup phrase can access or spend your safecoin."
 msgstr "復元フレーズを知る者はあなたのビットコインが勝手に送れてしまいます。"
 
 #: www/views/addresses.html:94
-msgid "Approximate Safecoin network fee to transfer wallet's balance (with normal priority)"
+msgid "Approximate SafeCoin network fee to transfer wallet's balance (with normal priority)"
 msgstr "ウォレットの残高を送るために推測される必要なビットコインネットワーク手数料(優先度：普通)"
 
 #: www/views/backupWarning.html:10
@@ -355,42 +355,42 @@ msgstr "BitPayのVISA&reg; カード"
 
 #: www/views/addressbook.add.html:38
 #: www/views/includes/incomingDataMenu.html:29
-msgid "Safecoin Address"
+msgid "SafeCoin Address"
 msgstr "ビットコインアドレス"
 
 #: www/views/cashScan.html:4
-msgid "Safecoin Cash (BCH) Balances"
+msgid "SafeCoin Cash (BCH) Balances"
 msgstr ""
 
 #: www/views/preferencesCash.html:3
 #: www/views/tab-settings.html:47
-msgid "Safecoin Cash Support"
+msgid "SafeCoin Cash Support"
 msgstr ""
 
 #: www/views/modals/chooseFeeLevel.html:4
 #: www/views/preferencesFee.html:4
 #: www/views/tab-settings.html:90
-msgid "Safecoin Network Fee Policy"
+msgid "SafeCoin Network Fee Policy"
 msgstr "ビットコインネットワークの手数料設定"
 
 #: src/js/services/incomingData.js:151
-msgid "Safecoin cash Payment"
+msgid "SafeCoin cash Payment"
 msgstr ""
 
 #: www/views/onboarding/tour.html:31
-msgid "Safecoin is a currency."
+msgid "SafeCoin is a currency."
 msgstr "ビットコインは通貨の一つ"
 
 #: www/views/onboarding/disclaimer.html:15
-msgid "Safecoin is different &ndash; it cannot be safely held with a bank or web service."
+msgid "SafeCoin is different &ndash; it cannot be safely held with a bank or web service."
 msgstr "ビットコインは違う &ndash; 銀行やウェブのサービスに安全に預けることはできません。"
 
 #: www/views/onboarding/tour.html:18
-msgid "Safecoin is secure,<br>digital money."
+msgid "SafeCoin is secure,<br>digital money."
 msgstr "ビットコインは世界で<br>最も安全な仮想通貨。"
 
 #: www/views/preferencesFee.html:11
-msgid "Safecoin transactions include a fee collected by miners on the network."
+msgid "SafeCoin transactions include a fee collected by miners on the network."
 msgstr "ビットコインの取引はネットワークの安全を守る「採掘者」と呼ばれる者達に送る手数料が含まれます。"
 
 #: www/views/buyAmazon.html:108
@@ -420,11 +420,11 @@ msgid "Buy"
 msgstr "購入"
 
 #: www/views/includes/buyAndSellCard.html:3
-msgid "Buy &amp; Sell Safecoin"
+msgid "Buy &amp; Sell SafeCoin"
 msgstr "ビットコインの購入&amp;売却"
 
 #: www/views/tab-send.html:35
-msgid "Buy Safecoin"
+msgid "Buy SafeCoin"
 msgstr "ビットコインを購入"
 
 #: www/views/mercadoLibre.html:22
@@ -437,7 +437,7 @@ msgid "Buy from"
 msgstr "今すぐ購入"
 
 #: src/js/services/onGoingProcess.js:40
-msgid "Buying Safecoin..."
+msgid "Buying SafeCoin..."
 msgstr "ビットコインを購入中..."
 
 #: src/js/services/onGoingProcess.js:12
@@ -960,7 +960,7 @@ msgid "Empty addresses limit reached. New addresses cannot be generated."
 msgstr "未使用アドレスを生成しすぎたため、これ以上アドレスを生成することができません。"
 
 #: www/views/preferencesCash.html:17
-msgid "Enable Safecoin Cash wallet creation and operation within the App."
+msgid "Enable SafeCoin Cash wallet creation and operation within the App."
 msgstr ""
 
 #: www/views/tab-scan.html:19
@@ -1391,7 +1391,7 @@ msgstr "ハードウェアウォレット"
 
 #: src/js/controllers/create.js:180
 #: src/js/controllers/join.js:145
-msgid "Hardware wallets are not yet supported with Safecoin Cash"
+msgid "Hardware wallets are not yet supported with SafeCoin Cash"
 msgstr ""
 
 #: www/views/tab-settings.html:20
@@ -1895,7 +1895,7 @@ msgid "No wallets available to receive funds"
 msgstr "ペーパーウォレットの出金を受け取るためのウォレットが入っていません。"
 
 #: www/views/cashScan.html:14
-msgid "No wallets eligible for Safecoin Cash support"
+msgid "No wallets eligible for SafeCoin Cash support"
 msgstr ""
 
 #: www/views/cashScan.html:44
@@ -2132,7 +2132,7 @@ msgid "Payment accepted. It will be broadcasted by Glidera. In case there is a p
 msgstr "取引が承認されました。Glideraより送信されます。問題があった場合、送金命令を出す６時間以内に取り消すことができます。"
 
 #: src/js/services/incomingData.js:152
-msgid "Payment address was translated to new Safecoin Cash address format:"
+msgid "Payment address was translated to new SafeCoin Cash address format:"
 msgstr ""
 
 #: www/views/modals/txp-details.html:109
@@ -2466,7 +2466,7 @@ msgid "Scan your fingerprint please"
 msgstr "指紋をスキャンしてください"
 
 #: www/views/preferencesCash.html:22
-msgid "Scan your wallets for Safecoin Cash"
+msgid "Scan your wallets for SafeCoin Cash"
 msgstr ""
 
 #: src/js/services/onGoingProcess.js:30
@@ -2518,7 +2518,7 @@ msgid "Self-signed Certificate"
 msgstr "自己署名証明書"
 
 #: src/js/services/onGoingProcess.js:41
-msgid "Selling Safecoin..."
+msgid "Selling SafeCoin..."
 msgstr "ビットコインを売却中..."
 
 #: www/views/feedback/send.html:13
@@ -2739,7 +2739,7 @@ msgid "Spending Password needed"
 msgstr "パスワードが必要"
 
 #: www/views/walletDetails.html:173
-msgid "Spending this balance will need significant Safecoin network fees"
+msgid "Spending this balance will need significant SafeCoin network fees"
 msgstr "この入力の組み合わせを送金するために膨大なビットコインネットワーク手数料を必要とします"
 
 #: www/views/tab-send.html:28
@@ -2764,7 +2764,7 @@ msgid "Super Economy"
 msgstr "超節約"
 
 #: www/views/preferencesCash.html:11
-msgid "Support Safecoin Cash"
+msgid "Support SafeCoin Cash"
 msgstr ""
 
 #: www/views/paperWallet.html:7
@@ -2955,7 +2955,7 @@ msgid "This recovery phrase was created with a password. To recover this wallet 
 msgstr "この復元フレーズにパスワードがかかっています。このウォレットを復元するためには、復元フレーズに加え、パスワードも必要です。"
 
 #: www/views/tx-details.html:93
-msgid "This transaction amount is too small compared to current Safecoin network fees. Spending these funds will need a Safecoin network fee cost comparable to the funds itself."
+msgid "This transaction amount is too small compared to current SafeCoin network fees. Spending these funds will need a SafeCoin network fee cost comparable to the funds itself."
 msgstr "この取引の金額はビットコインネットワーク手数料より低いです。送金額より大きい手数料を払ってしまうことになります。"
 
 #: www/views/tx-details.html:89

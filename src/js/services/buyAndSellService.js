@@ -23,7 +23,7 @@ angular.module('copayApp.services').factory('buyAndSellService', function($log, 
 
     if (linkedServices.length == 0) {
       nextStepsService.register({
-        title: 'Buy or Sell Safecoin',
+        title: 'Buy or Sell SafeCoin',
         name: 'buyandsell',
         icon: 'icon-buy-safecoin',
         sref: 'tabs.buyandsell',

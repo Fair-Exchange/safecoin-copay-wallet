@@ -233,8 +233,8 @@ msgid "Anyone with your backup phrase can access or spend your safecoin."
 msgstr "Qualcuno con la tua frase di recupero potrebbe avere accesso o spendere i tuoi safecoin."
 
 #: www/views/addresses.html:94
-msgid "Approximate Safecoin network fee to transfer wallet's balance (with normal priority)"
-msgstr "La tariffa approssimativa della rete Safecoin per il trasferimento del saldo del portafoglio ( con priorità normale)"
+msgid "Approximate SafeCoin network fee to transfer wallet's balance (with normal priority)"
+msgstr "La tariffa approssimativa della rete SafeCoin per il trasferimento del saldo del portafoglio ( con priorità normale)"
 
 #: www/views/backupWarning.html:10
 msgid "Are you being watched?"
@@ -353,43 +353,43 @@ msgstr "Carte di BitPay Visa®"
 
 #: www/views/addressbook.add.html:38
 #: www/views/includes/incomingDataMenu.html:29
-msgid "Safecoin Address"
-msgstr "Indirizzo Safecoin"
+msgid "SafeCoin Address"
+msgstr "Indirizzo SafeCoin"
 
 #: www/views/cashScan.html:4
-msgid "Safecoin Cash (BCH) Balances"
-msgstr "Saldi di Safecoin Cash (BCH)"
+msgid "SafeCoin Cash (BCH) Balances"
+msgstr "Saldi di SafeCoin Cash (BCH)"
 
 #: www/views/preferencesCash.html:3
 #: www/views/tab-settings.html:47
-msgid "Safecoin Cash Support"
-msgstr "Supporto Safecoin Cash"
+msgid "SafeCoin Cash Support"
+msgstr "Supporto SafeCoin Cash"
 
 #: www/views/modals/chooseFeeLevel.html:4
 #: www/views/preferencesFee.html:4
 #: www/views/tab-settings.html:90
-msgid "Safecoin Network Fee Policy"
-msgstr "Criterio delle Commissioni del Safecoin Network"
+msgid "SafeCoin Network Fee Policy"
+msgstr "Criterio delle Commissioni del SafeCoin Network"
 
 #: src/js/services/incomingData.js:151
-msgid "Safecoin cash Payment"
-msgstr "Pagamento Safecoin Cash"
+msgid "SafeCoin cash Payment"
+msgstr "Pagamento SafeCoin Cash"
 
 #: www/views/onboarding/tour.html:31
-msgid "Safecoin is a currency."
-msgstr "Safecoin è una moneta."
+msgid "SafeCoin is a currency."
+msgstr "SafeCoin è una moneta."
 
 #: www/views/onboarding/disclaimer.html:15
-msgid "Safecoin is different &ndash; it cannot be safely held with a bank or web service."
-msgstr "Safecoin è differente e non può essere custodito in una banca o con un servizio web."
+msgid "SafeCoin is different &ndash; it cannot be safely held with a bank or web service."
+msgstr "SafeCoin è differente e non può essere custodito in una banca o con un servizio web."
 
 #: www/views/onboarding/tour.html:18
-msgid "Safecoin is secure,<br>digital money."
-msgstr "Safecoin è sicuro,<br>moneta digitale."
+msgid "SafeCoin is secure,<br>digital money."
+msgstr "SafeCoin è sicuro,<br>moneta digitale."
 
 #: www/views/preferencesFee.html:11
-msgid "Safecoin transactions include a fee collected by miners on the network."
-msgstr "Le transazioni Safecoin comprendono un supplemento che viene raccolto dai mines nella rete."
+msgid "SafeCoin transactions include a fee collected by miners on the network."
+msgstr "Le transazioni SafeCoin comprendono un supplemento che viene raccolto dai mines nella rete."
 
 #: www/views/buyAmazon.html:108
 msgid "Bought {{amountUnitStr}}"
@@ -418,12 +418,12 @@ msgid "Buy"
 msgstr "Acquista"
 
 #: www/views/includes/buyAndSellCard.html:3
-msgid "Buy &amp; Sell Safecoin"
-msgstr "Comprare &amp; Vendere Safecoin"
+msgid "Buy &amp; Sell SafeCoin"
+msgstr "Comprare &amp; Vendere SafeCoin"
 
 #: www/views/tab-send.html:35
-msgid "Buy Safecoin"
-msgstr "Acquista Safecoin"
+msgid "Buy SafeCoin"
+msgstr "Acquista SafeCoin"
 
 #: www/views/mercadoLibre.html:22
 #: www/views/mercadoLibre.html:50
@@ -435,8 +435,8 @@ msgid "Buy from"
 msgstr "Acquista da"
 
 #: src/js/services/onGoingProcess.js:40
-msgid "Buying Safecoin..."
-msgstr "Comprare Safecoin..."
+msgid "Buying SafeCoin..."
+msgstr "Comprare SafeCoin..."
 
 #: src/js/services/onGoingProcess.js:12
 msgid "Calculating fee"
@@ -958,8 +958,8 @@ msgid "Empty addresses limit reached. New addresses cannot be generated."
 msgstr "Raggiunto il limite degli indirizzi vuoti. Non possono essere generati nuovi indirizzi."
 
 #: www/views/preferencesCash.html:17
-msgid "Enable Safecoin Cash wallet creation and operation within the App."
-msgstr "Attivare la creazione del portafoglio funzionalità Safecoin Cash e all'interno dell'App."
+msgid "Enable SafeCoin Cash wallet creation and operation within the App."
+msgstr "Attivare la creazione del portafoglio funzionalità SafeCoin Cash e all'interno dell'App."
 
 #: www/views/tab-scan.html:19
 msgid "Enable camera access in your device settings to get started."
@@ -1389,8 +1389,8 @@ msgstr "Portafoglio hardware"
 
 #: src/js/controllers/create.js:180
 #: src/js/controllers/join.js:145
-msgid "Hardware wallets are not yet supported with Safecoin Cash"
-msgstr "I portafogli hardware non sono ancora supportati con Safecoin Cash"
+msgid "Hardware wallets are not yet supported with SafeCoin Cash"
+msgstr "I portafogli hardware non sono ancora supportati con SafeCoin Cash"
 
 #: www/views/tab-settings.html:20
 msgid "Help & Support"
@@ -1623,7 +1623,7 @@ msgstr "Questo indirizzo email è corretto?"
 
 #: www/views/addresses.html:25
 msgid "It's a good idea to avoid reusing addresses - this both protects your privacy and keeps your safecoins secure against hypothetical attacks by quantum computers."
-msgstr "È una buona idea evitare di riutilizzare gli indirizzi - questo protegge la tua privacy e mantiene i Safecoin al sicuro da ipotetici attacchi di computer quantistici."
+msgstr "È una buona idea evitare di riutilizzare gli indirizzi - questo protegge la tua privacy e mantiene i SafeCoin al sicuro da ipotetici attacchi di computer quantistici."
 
 #: src/js/controllers/backup.js:76
 msgid "It's important that you write your backup phrase down correctly. If something happens to your wallet, you'll need this backup to recover your money. Please review your backup and try again."
@@ -1893,8 +1893,8 @@ msgid "No wallets available to receive funds"
 msgstr "Nessun portafoglo disponibile per ricevere i fondi"
 
 #: www/views/cashScan.html:14
-msgid "No wallets eligible for Safecoin Cash support"
-msgstr "Nessun portafogli idoneo al supporto di Safecoin Cash"
+msgid "No wallets eligible for SafeCoin Cash support"
+msgstr "Nessun portafogli idoneo al supporto di SafeCoin Cash"
 
 #: www/views/cashScan.html:44
 msgid "Non eligible SAFE wallets"
@@ -2130,8 +2130,8 @@ msgid "Payment accepted. It will be broadcasted by Glidera. In case there is a p
 msgstr "Pagamento accettato. Esso sarà trasmesso attraverso la rete Glidera. Nel caso in cui ci fosse un problema, si potrà eliminarlo 6 ore dopo che è stato creato."
 
 #: src/js/services/incomingData.js:152
-msgid "Payment address was translated to new Safecoin Cash address format:"
-msgstr "Indirizzo per il pagamento è stato tradotto al nuovo formato di indirizzo Safecoin Cash:"
+msgid "Payment address was translated to new SafeCoin Cash address format:"
+msgstr "Indirizzo per il pagamento è stato tradotto al nuovo formato di indirizzo SafeCoin Cash:"
 
 #: www/views/modals/txp-details.html:109
 msgid "Payment details"
@@ -2464,8 +2464,8 @@ msgid "Scan your fingerprint please"
 msgstr "Per cortesia procedere alla scansione dell'impronta digitale"
 
 #: www/views/preferencesCash.html:22
-msgid "Scan your wallets for Safecoin Cash"
-msgstr "Cercare nei tuoi portafogli per Safecoin Cash"
+msgid "Scan your wallets for SafeCoin Cash"
+msgstr "Cercare nei tuoi portafogli per SafeCoin Cash"
 
 #: src/js/services/onGoingProcess.js:30
 msgid "Scanning Wallet funds..."
@@ -2516,8 +2516,8 @@ msgid "Self-signed Certificate"
 msgstr "Certificato autofirmato"
 
 #: src/js/services/onGoingProcess.js:41
-msgid "Selling Safecoin..."
-msgstr "Vendere Safecoin..."
+msgid "Selling SafeCoin..."
+msgstr "Vendere SafeCoin..."
 
 #: www/views/feedback/send.html:13
 #: www/views/feedback/send.html:43
@@ -2735,8 +2735,8 @@ msgid "Spending Password needed"
 msgstr "Necessaria password di spesa"
 
 #: www/views/walletDetails.html:173
-msgid "Spending this balance will need significant Safecoin network fees"
-msgstr "Per spendere questa quantità saranno necessarie significative commissioni di rete Safecoin"
+msgid "Spending this balance will need significant SafeCoin network fees"
+msgstr "Per spendere questa quantità saranno necessarie significative commissioni di rete SafeCoin"
 
 #: www/views/tab-send.html:28
 msgid "Start sending safecoin"
@@ -2760,8 +2760,8 @@ msgid "Super Economy"
 msgstr "Super Economica"
 
 #: www/views/preferencesCash.html:11
-msgid "Support Safecoin Cash"
-msgstr "Supporto Safecoin Cash"
+msgid "Support SafeCoin Cash"
+msgstr "Supporto SafeCoin Cash"
 
 #: www/views/paperWallet.html:7
 msgid "Sweep"
@@ -2949,8 +2949,8 @@ msgid "This recovery phrase was created with a password. To recover this wallet 
 msgstr "Questa frase di recupero è stata creata con una password. Per recuperare questo portafoglio sono necessari sia la frase di recupero e che la password."
 
 #: www/views/tx-details.html:93
-msgid "This transaction amount is too small compared to current Safecoin network fees. Spending these funds will need a Safecoin network fee cost comparable to the funds itself."
-msgstr "Questo importo della transazione è troppo piccolo rispetto alle attuali commissioni della rete Safecoin. Per spendere questi fondi sarà necessaria una commissione Safecoin paragonabile ai fondi stessi."
+msgid "This transaction amount is too small compared to current SafeCoin network fees. Spending these funds will need a SafeCoin network fee cost comparable to the funds itself."
+msgstr "Questo importo della transazione è troppo piccolo rispetto alle attuali commissioni della rete SafeCoin. Per spendere questi fondi sarà necessaria una commissione SafeCoin paragonabile ai fondi stessi."
 
 #: www/views/tx-details.html:89
 msgid "This transaction could take a long time to confirm or could be dropped due to the low fees set by the sender"

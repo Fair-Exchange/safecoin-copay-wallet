@@ -233,7 +233,7 @@ msgid "Anyone with your backup phrase can access or spend your safecoin."
 msgstr "任何人只要持有你的备份短语，就可以访问或者花掉你的比特币。"
 
 #: www/views/addresses.html:94
-msgid "Approximate Safecoin network fee to transfer wallet's balance (with normal priority)"
+msgid "Approximate SafeCoin network fee to transfer wallet's balance (with normal priority)"
 msgstr "近似的比特币网络费用将钱包的余额转移 (与正常优先级)"
 
 #: www/views/backupWarning.html:10
@@ -353,42 +353,42 @@ msgstr "BitPay Visa&reg; 牌"
 
 #: www/views/addressbook.add.html:38
 #: www/views/includes/incomingDataMenu.html:29
-msgid "Safecoin Address"
+msgid "SafeCoin Address"
 msgstr "比特币地址"
 
 #: www/views/cashScan.html:4
-msgid "Safecoin Cash (BCH) Balances"
+msgid "SafeCoin Cash (BCH) Balances"
 msgstr ""
 
 #: www/views/preferencesCash.html:3
 #: www/views/tab-settings.html:47
-msgid "Safecoin Cash Support"
+msgid "SafeCoin Cash Support"
 msgstr ""
 
 #: www/views/modals/chooseFeeLevel.html:4
 #: www/views/preferencesFee.html:4
 #: www/views/tab-settings.html:90
-msgid "Safecoin Network Fee Policy"
+msgid "SafeCoin Network Fee Policy"
 msgstr "比特币网络手续费策略"
 
 #: src/js/services/incomingData.js:151
-msgid "Safecoin cash Payment"
+msgid "SafeCoin cash Payment"
 msgstr ""
 
 #: www/views/onboarding/tour.html:31
-msgid "Safecoin is a currency."
+msgid "SafeCoin is a currency."
 msgstr "比特币是一种货币。"
 
 #: www/views/onboarding/disclaimer.html:15
-msgid "Safecoin is different &ndash; it cannot be safely held with a bank or web service."
+msgid "SafeCoin is different &ndash; it cannot be safely held with a bank or web service."
 msgstr "比特币是不同 — — 它不能安全地举行以银行或 web 服务。"
 
 #: www/views/onboarding/tour.html:18
-msgid "Safecoin is secure,<br>digital money."
+msgid "SafeCoin is secure,<br>digital money."
 msgstr "比特币是安全的 <br>数字货币。"
 
 #: www/views/preferencesFee.html:11
-msgid "Safecoin transactions include a fee collected by miners on the network."
+msgid "SafeCoin transactions include a fee collected by miners on the network."
 msgstr "比特币交易包括在网络上被矿工所收取的费用。"
 
 #: www/views/buyAmazon.html:108
@@ -418,11 +418,11 @@ msgid "Buy"
 msgstr "购买"
 
 #: www/views/includes/buyAndSellCard.html:3
-msgid "Buy &amp; Sell Safecoin"
+msgid "Buy &amp; Sell SafeCoin"
 msgstr "购买或出售比特币"
 
 #: www/views/tab-send.html:35
-msgid "Buy Safecoin"
+msgid "Buy SafeCoin"
 msgstr "购买比特币"
 
 #: www/views/mercadoLibre.html:22
@@ -435,7 +435,7 @@ msgid "Buy from"
 msgstr "从什么地方购买"
 
 #: src/js/services/onGoingProcess.js:40
-msgid "Buying Safecoin..."
+msgid "Buying SafeCoin..."
 msgstr "正在发送 比特币..."
 
 #: src/js/services/onGoingProcess.js:12
@@ -958,7 +958,7 @@ msgid "Empty addresses limit reached. New addresses cannot be generated."
 msgstr "已达到空地址限制。无法生成新的地址。"
 
 #: www/views/preferencesCash.html:17
-msgid "Enable Safecoin Cash wallet creation and operation within the App."
+msgid "Enable SafeCoin Cash wallet creation and operation within the App."
 msgstr ""
 
 #: www/views/tab-scan.html:19
@@ -1389,7 +1389,7 @@ msgstr "硬件钱包"
 
 #: src/js/controllers/create.js:180
 #: src/js/controllers/join.js:145
-msgid "Hardware wallets are not yet supported with Safecoin Cash"
+msgid "Hardware wallets are not yet supported with SafeCoin Cash"
 msgstr ""
 
 #: www/views/tab-settings.html:20
@@ -1893,7 +1893,7 @@ msgid "No wallets available to receive funds"
 msgstr "没有可用于接收资金的钱包"
 
 #: www/views/cashScan.html:14
-msgid "No wallets eligible for Safecoin Cash support"
+msgid "No wallets eligible for SafeCoin Cash support"
 msgstr ""
 
 #: www/views/cashScan.html:44
@@ -2130,7 +2130,7 @@ msgid "Payment accepted. It will be broadcasted by Glidera. In case there is a p
 msgstr "支付以被接受。它将由 Glidera 广播。如果出现问题，它可以在创建后的 6 个小时内删除。"
 
 #: src/js/services/incomingData.js:152
-msgid "Payment address was translated to new Safecoin Cash address format:"
+msgid "Payment address was translated to new SafeCoin Cash address format:"
 msgstr ""
 
 #: www/views/modals/txp-details.html:109
@@ -2464,7 +2464,7 @@ msgid "Scan your fingerprint please"
 msgstr "请扫描你的指纹"
 
 #: www/views/preferencesCash.html:22
-msgid "Scan your wallets for Safecoin Cash"
+msgid "Scan your wallets for SafeCoin Cash"
 msgstr ""
 
 #: src/js/services/onGoingProcess.js:30
@@ -2516,7 +2516,7 @@ msgid "Self-signed Certificate"
 msgstr "自签名证书"
 
 #: src/js/services/onGoingProcess.js:41
-msgid "Selling Safecoin..."
+msgid "Selling SafeCoin..."
 msgstr "出售比特币......"
 
 #: www/views/feedback/send.html:13
@@ -2735,7 +2735,7 @@ msgid "Spending Password needed"
 msgstr "需要支付密码"
 
 #: www/views/walletDetails.html:173
-msgid "Spending this balance will need significant Safecoin network fees"
+msgid "Spending this balance will need significant SafeCoin network fees"
 msgstr "这笔交易将需要非常高的比特币网络手续费"
 
 #: www/views/tab-send.html:28
@@ -2760,7 +2760,7 @@ msgid "Super Economy"
 msgstr "超级经济"
 
 #: www/views/preferencesCash.html:11
-msgid "Support Safecoin Cash"
+msgid "Support SafeCoin Cash"
 msgstr ""
 
 #: www/views/paperWallet.html:7
@@ -2949,7 +2949,7 @@ msgid "This recovery phrase was created with a password. To recover this wallet 
 msgstr "此恢复短语是用密码创建。为了恢复此钱包，需要恢复短语和密码。"
 
 #: www/views/tx-details.html:93
-msgid "This transaction amount is too small compared to current Safecoin network fees. Spending these funds will need a Safecoin network fee cost comparable to the funds itself."
+msgid "This transaction amount is too small compared to current SafeCoin network fees. Spending these funds will need a SafeCoin network fee cost comparable to the funds itself."
 msgstr "相对于当前比特币网络费，这笔交易金额太小。手续费相当于这笔交易金额本身。"
 
 #: www/views/tx-details.html:89
