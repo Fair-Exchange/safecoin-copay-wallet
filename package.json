@@ -40,11 +40,11 @@
   "homepage": "https://safecoin.org",
   "license": "MIT",
   "repository": {
-    "url": "git://github.com/safecoin/safecoin-copay-wallet.git",
+    "url": "git://github.com/OleksandrBlack/safecoin-copay-wallet.git",
     "type": "git"
   },
   "bugs": {
-    "url": "https://github.com/safecoin/safecoin-copay-wallet/issues"
+    "url": "https://github.com/OleksandrBlack/safecoin-copay-wallet/issues"
   },
   "engines": {
     "node": "6",
@@ -57,7 +57,7 @@
     "bezier-easing": "^2.0.3",
     "bhttp": "^1.2.4",
     "bitauth": "^0.2.1",
-    "bitcore-wallet-client-safe": "git+https://github.com/safecoin/bitcore-wallet-client-safe.git",
+    "bitcore-wallet-client-safe": "git+https://github.com/OleksandrBlack/bitcore-wallet-client-safe.git",
     "bower": "^1.7.9",
     "cordova": "^7.1.0",
     "cordova-android": "^6.4.0",
