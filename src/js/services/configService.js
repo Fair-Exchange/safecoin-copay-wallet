@@ -64,7 +64,7 @@ angular.module('copayApp.services').factory('configService', function(storageSer
     },
 
     rates: {
-      url: 'https://rates.safecoin.org/rates',
+      url: 'https://rates.zel.cash/rates',
     },
 
     release: {
