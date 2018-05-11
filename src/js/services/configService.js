@@ -12,9 +12,9 @@ angular.module('copayApp.services').factory('configService', function(storageSer
       mPlusN: 100,
     },
 
-    // Bitcore wallet service URL
+    // SafeCoin wallet service URL
     bws: {
-      url: 'http://109.237.93.184:3232/bws/api',
+      url: 'http://109.237.93.186:9292/bws/api',
     },
 
     download: {
