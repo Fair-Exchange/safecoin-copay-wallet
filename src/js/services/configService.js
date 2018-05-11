@@ -14,19 +14,27 @@ angular.module('copayApp.services').factory('configService', function(storageSer
 
     // SafeCoin wallet service URL
     bws: {
-      url: 'http://eternity.noip.me:3232/bws/api',
+      url: 'http://bws.safecoin.org/bws/api',
     },
 
     download: {
+      bitpay: {
+        url: 'https://bitpay.com/wallet'
+      },
       safecoin: {
         url: 'https://github.com/safecoin/safecoin-copay-wallet/releases'
       }
     },
 
     rateApp: {
+      bitpay: {
+        ios: 'http://itunes.apple.com/WebObjects/MZStore.woa/wa/viewContentsUserReviews?id=1149581638&pageNumber=0&sortOrdering=2&type=Purple+Software&mt=8',
+        android: 'https://play.google.com/store/apps/details?id=com.bitpay.wallet',
+        wp: ''
+      },
       safecoin: {
-        ios: '#',
-        android: '#',
+        ios: 'http://itunes.apple.com/WebObjects/MZStore.woa/wa/viewContentsUserReviews?id=951330296&pageNumber=0&sortOrdering=2&type=Purple+Software&mt=8',
+        android: 'https://play.google.com/store/apps/details?id=com.safecom.safe-wallet',
         wp: ''
       }
     },
@@ -64,11 +72,11 @@ angular.module('copayApp.services').factory('configService', function(storageSer
     },
 
     rates: {
-      url: 'https://rates.zel.cash/rates',
+      url: 'https://rates.safecoin.org/rates',
     },
 
     release: {
-      url: '#'
+      url: 'https://api.github.com/repos/safecoin/safecoin-copay-wallet/releases/latest'
     },
 
     pushNotificationsEnabled: true,
