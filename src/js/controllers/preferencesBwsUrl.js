@@ -25,15 +25,15 @@ angular.module('copayApp.controllers').controller('preferencesBwsUrlController',
       switch ($scope.bwsurl.value) {
         case 'prod':
         case 'production':
-          bws = 'http://eternity.noip.me:9292/bws/api'
+          bws = 'http://eternity.noip.me:3232/bws/api'
           break;
         case 'sta':
         case 'staging':
-          bws = 'http://eternity.noip.me:9292/bws/api'
+          bws = 'http://eternity.noip.me:3232/bws/api'
           break;
         case 'loc':
         case 'local':
-          bws = 'http://eternity.noip.me:9292/bws/api'
+          bws = 'http://eternity.noip.me:3232/bws/api'
           break;
       };
       if (bws) {
