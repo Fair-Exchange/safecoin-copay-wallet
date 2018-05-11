@@ -76,7 +76,7 @@ provide as much detail and context as possible.
 If you are having particular problem with your SafeCoin Wallet instalation, please first [search older
 issues](https://github.com/safecoin/safecoin-copay-wallet/issues) in order to learn if the issue is already reported. It could be fixed already.
 
-Please also check our the copay [FAQ](https://github.com/bitpay/copay/wiki/COPAY---FAQ).
+Please also check our the copay [FAQ](https://github.com/safecoin/safecoin-copay-wallet/wiki/).
 
 When requesting support describe the issue as much in detail as possible. Consider to
 provide the following information:

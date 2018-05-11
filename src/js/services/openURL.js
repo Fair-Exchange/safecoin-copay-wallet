@@ -57,10 +57,10 @@ angular.module('copayApp.services').factory('openURLService', function($rootScop
 
       // This event is sent to an existent instance of Copay (only for standalone apps)
       gui.App.on('open', function(pathData) {
-        if (pathData.indexOf(/^safecoin(cash)?:/) != -1) {
-          $log.debug('SafeCoin URL found');
+        if (pathData.indexOf(/^bitcoin(cash)?:/) != -1) {
+          $log.debug('Bitcoin URL found');
           handleOpenURL({
-            url: pathData.substring(pathData.indexOf(/^safecoin(cash)?:/))
+            url: pathData.substring(pathData.indexOf(/^bitcoin(cash)?:/))
           });
         } else if (pathData.indexOf(appConfigService.name + '://') != -1) {
           $log.debug(appConfigService.name + ' URL found');
@@ -83,9 +83,8 @@ angular.module('copayApp.services').factory('openURLService', function($rootScop
 
       if (navigator.registerProtocolHandler) {
         $log.debug('Registering Browser handlers base:' + base);
-        navigator.registerProtocolHandler('safecoin', url, 'Copay SafeCoin Handler');
+        navigator.registerProtocolHandler('safecoin', url, 'Copay Bitcoin Handler');
         navigator.registerProtocolHandler('web+safecoin', url, 'Copay Wallet Handler');
-        navigator.registerProtocolHandler('web+bitpay', url, 'BitPay Wallet Handler');
       }
     }
   };

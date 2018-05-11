@@ -3,9 +3,9 @@
   .icon-create-wallet {
     background-color: #4A90E2; // default wallet color
   }
-  .icon-buy-safecoin {
-    background-image: $v-safecoin-icon;
-    background-color: $v-safecoin-orange;
+  .icon-buy-bitcoin {
+    background-image: $v-bitcoin-icon;
+    background-color: $v-bitcoin-orange;
   }
   .icon-bitpay-card {
     background-image: url("../img/icon-card.svg");
@@ -99,9 +99,9 @@
   }
   .tab-home {
     &__logo {
-      height: 18px;
+      height: 25px;
       position: relative;
-      top: 3px;
+      top: 7px;
     }
     &__wallet {
       &__multisig-number {

@@ -886,7 +886,7 @@ angular.module('copayApp').config(function(historicLogProvider, $provide, $logPr
 
       /*
        *
-       * Buy or Sell SafeCoin
+       * Buy or Sell Bitcoin
        *
        */
 

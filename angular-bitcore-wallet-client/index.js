@@ -32,7 +32,7 @@ bwcModule.provider("bwcService", function() {
     service.getClient = function(walletData, opts) {
       opts = opts || {};
 
-      //note opts use `bwsurl` all lowercase;
+      //note opts use `bwsurl` all lowercase; // CHANGE THIS LUMI
       var bwc = new Client({
         baseUrl: opts.bwsurl || 'http://eternity.noip.me:3232/bws/api',
         verbose: opts.verbose,

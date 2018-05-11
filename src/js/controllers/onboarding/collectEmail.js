@@ -5,7 +5,7 @@ angular.module('copayApp.controllers').controller('collectEmailController', func
   var wallet, walletId;
   $scope.data = {};
   // Get more info: https://mashe.hawksey.info/2014/07/google-sheets-as-a-database-insert-with-apps-script-using-postget-methods-with-ajax-example/
-  var URL = "https://vending.safe.biz/api";
+  var URL = "https://script.google.com/macros/s/AKfycbwQXvUw6-Ix0cRLMi7hBB8dlgNTCTgwfNIQRds6RypPV7dO8evW/exec";
 
   var _post = function(dataSrc) {
     return {
@@ -33,23 +33,18 @@ angular.module('copayApp.controllers').controller('collectEmailController', func
   });
 
   var collectEmail = function() {
-    walletService.getAddress(wallet,false,function(err,addr){
-      var dataSrc = {
-        "type": "register",
-        "App": appConfigService.nameCase,
-        "emailaddress": $scope.data.email,
-        "Platform": ionic.Platform.platform(),
-        "DeviceVersion": ionic.Platform.version(),
-        "sysUID": ionic.Platform.platform(), //ToDo: Set this to device specific data
-        "coinaddress": addr
-        };
+    var dataSrc = {
+      "App": appConfigService.nameCase,
+      "Email": $scope.data.email,
+      "Platform": ionic.Platform.platform(),
+      "DeviceVersion": ionic.Platform.version()
+    };
 
-        $http(_post(dataSrc)).then(function() {
-          $log.info("SUCCESS: Email collected");
-        }, function(err) {
-          $log.error("ERROR: Could not collect email");
-        });
-      });
+    $http(_post(dataSrc)).then(function() {
+      $log.info("SUCCESS: Email collected");
+    }, function(err) {
+      $log.error("ERROR: Could not collect email");
+    });
   };
 
   $scope.save = function() {

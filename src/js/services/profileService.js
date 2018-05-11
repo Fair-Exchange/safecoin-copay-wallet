@@ -587,7 +587,7 @@ angular.module('copayApp.services')
       str = JSON.parse(str);
 
       if (!str.n) {
-        return cb("Backup format not recognized. If you are using a Copay Beta backup and version is older than 0.10, please see: https://github.com/bitpay/copay/issues/4730#issuecomment-244522614");
+        return cb("Backup format not recognized.");
       }
 
       var addressBook = str.addressBook || {};
@@ -960,18 +960,7 @@ angular.module('copayApp.services')
               };
             });
 
-            var data = [];
-            lodash.each(n, function(x){
-              var temp = lodash.find(data, function(x2){
-                return x.data.txid == x2.data.txid;
-              });
-
-              if(temp == undefined)
-              {
-                data.push(x);
-              }
-            });
-            notifications.push(data);
+            notifications.push(n);
           }
           if (j == l) {
             notifications = lodash.sortBy(notifications, 'createdOn');

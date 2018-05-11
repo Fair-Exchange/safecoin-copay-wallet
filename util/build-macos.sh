@@ -16,7 +16,7 @@ if [ -d "$dir" ]; then
 fi
 
 # set up your app name, architecture, and background image file name
-APP_NAME="SafeCoin Copay Wallet"
+APP_NAME="SafeCoin"
 rm dmg-background.tiff
 ln -s ../resources/safecoin/mac/dmg-background.tiff dmg-background.tiff
 rm volume-icon.icns
@@ -73,7 +73,7 @@ if [ $SHOULD_SIGN ]
 then
   echo "Signing ${APP_NAME} DMG"
 
-  export IDENTITY="3rd Party Mac Developer Application: SafeCoin Foundation"
+  export IDENTITY="3rd Party Mac Developer Application: SafeCoin Foundation."
 
   # not need for 'out of app store' distribution (?)
 #  export PARENT_PLIST=parent.plist

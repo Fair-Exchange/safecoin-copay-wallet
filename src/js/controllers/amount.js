@@ -30,13 +30,13 @@ angular.module('copayApp.controllers').controller('amountController', function($
 
       availableUnits = [];
 
-      var hasSAFEWallets = profileService.getWallets({
+      var hasSafeWallets = profileService.getWallets({
         coin: 'safe'
       }).length;
 
-      if (hasSAFEWallets) {
+      if (hasSafeWallets) {
         availableUnits.push({
-          name: 'SafeCoin',
+          name: 'Bitcoin',
           id: 'safe',
           shortName: 'SAFE',
         });

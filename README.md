@@ -1,9 +1,11 @@
 # WARNING #
 This software should be used at your own risk. It is experimental.
 
-SafeCoin Wallet is a secure safecoin wallet platform for both desktop and mobile devices. SafeCoin Wallet uses [Bitcore Wallet Service](https://github.com/bitpay/bitcore-wallet-service) (BWS) for peer synchronization and network interfacing.
+<img src="https://static1.squarespace.com/static/5a63831b8c56a8aad3aff672/t/5a9d323224a69491fe051c00/1520253705456/Logo-With-Text-Lightbackground-1000px.png?format=750w" alt="SafeCoin" width="200">
 
-Binary versions of SafeCoin Wallet are available for download at [safecoin.global](https://www.safecoin.org/#wallets).
+SafeCoin Wallet is a secure bitcoin wallet platform for both desktop and mobile devices. SafeCoin Wallet uses [Bitcore Wallet Service](https://github.com/bitpay/bitcore-wallet-service) (BWS) for peer synchronization and network interfacing.
+
+Binary versions of SafeCoin Wallet are available for download at [safe.cash](https://www.safe.cash).
 For a list of frequently asked questions please visit the [Copay FAQ](https://github.com/bitpay/copay/wiki/COPAY---FAQ).
 
 ## Main Features
@@ -11,11 +13,11 @@ For a list of frequently asked questions please visit the [Copay FAQ](https://gi
 - Multiple wallet creation and management in-app
 - Intuitive, multisignature security for personal or shared wallets
 - Easy spending proposal flow for shared wallets and group payments
-- [BIP32](https://github.com/safecoin/bips/blob/master/bip-0032.mediawiki) Hierarchical deterministic (HD) address generation and wallet backups
+- [BIP32](https://github.com/bitcoin/bips/blob/master/bip-0032.mediawiki) Hierarchical deterministic (HD) address generation and wallet backups
 - Device-based security: all private keys are stored locally, not in the cloud
-- Support for SafeCoin testnet wallets
+- Support for Bitcoin testnet wallets
 - Synchronous access across all major mobile and desktop platforms
-- Payment protocol (BIP70-BIP73) support: easily-identifiable payment requests and verifiable, secure safecoin payments
+- Payment protocol (BIP70-BIP73) support: easily-identifiable payment requests and verifiable, secure bitcoin payments
 - Support for over 150 currency pricing options and unit denomination in BTC or bits
 - Mnemonic (BIP39) support for wallet backups
 - Paper wallet sweep support (BIP38)
@@ -24,8 +26,7 @@ For a list of frequently asked questions please visit the [Copay FAQ](https://gi
 - Push notifications (only available for ios and android versions)
 - Customizable wallet naming and background colors
 - Multiple languages supported
-- Available for [iOS](https://itunes.apple.com/us/app/copay/id951330296), [Android](https://play.google.com/store/apps/details?id=com.safecom.safe-wallet),
-[Linux](https://github.com/safecoin/safecoin-copay-wallet/tags), [Windows](https://github.com/safecoin/safecoin-copay-wallet/tags) and [OS X](https://github.com/safecoin/safecoin-copay-wallet/tags) devices
+- Available for [Linux](https://github.com/safecoin/safecoin-copay-wallet/tags), [Windows](https://github.com/safecoin/safecoin-copay-wallet/tags) and [OS X](https://github.com/safecoin/safecoin-copay-wallet/tags) devices.
 
 ## Testing in a Browser
 
@@ -98,7 +99,6 @@ and then enable this one:
 - Run:
 ```
 npm run clean-all
-npm install
 npm run start:windows
 ```
 - Then open the project file with VS inside cordova/platform/windows/
@@ -123,7 +123,6 @@ The `final` commands build the production version of the app, and bundle it with
 
 ```
 npm run clean-all
-npm install
 npm run final:android
 ```
 
@@ -131,7 +130,6 @@ npm run final:android
 
 ```
 npm run clean-all
-npm install
 npm run final:ios
 ```
 
@@ -149,7 +147,6 @@ and then enable this one:
 - Run:
 ```
 npm run clean-all
-npm install
 npm run final:windows
 ```
 - Then open the project file with VS inside cordova/platform/windows/
@@ -179,29 +176,18 @@ make
 
 On success, the Chrome extension will be located at: `browser-extensions/chrome/copay-chrome-extension`.  To install it go to `chrome://extensions/` in your browser and ensure you have the 'developer mode' option enabled in the settings.  Then click on "Load unpacked chrome extension" and choose the directory mentioned above.
 
-## Configuration
-
-### Enable External Services
-
-To enable external services, set the `COPAY_EXTERNAL_SERVICES_CONFIG_LOCATION` or `BITPAY_EXTERNAL_SERVICES_CONFIG_LOCATION` environment variable to the location of your configuration before running the `apply` task.
-
-```
-COPAY_EXTERNAL_SERVICES_CONFIG_LOCATION="~/.copay/externalServices.json" npm run apply:copay
-# or
-BITPAY_EXTERNAL_SERVICES_CONFIG_LOCATION="~/.bitpay/externalServices.json" npm run apply:bitpay
-```
 
 ## About SafeCoin
 
 ### General
 
-SafeCoin implements a multisig wallet using [p2sh](https://en.safecoin.it/wiki/Pay_to_script_hash) addresses.  It supports multiple wallets, each with its own configuration, such as 3-of-5 (3 required signatures from 5 participant peers) or 2-of-3.  To create a multisig wallet shared between multiple participants, SafeCoin requires the extended public keys of all the wallet participants.  Those public keys are then incorporated into the wallet configuration and combined to generate a payment address where funds can be sent into the wallet.  Conversely, each participant manages their own private key and that private key is never transmitted anywhere.
+SafeCoin implements a multisig wallet using [p2sh](https://en.bitcoin.it/wiki/Pay_to_script_hash) addresses.  It supports multiple wallets, each with its own configuration, such as 3-of-5 (3 required signatures from 5 participant peers) or 2-of-3.  To create a multisig wallet shared between multiple participants, SafeCoin requires the extended public keys of all the wallet participants.  Those public keys are then incorporated into the wallet configuration and combined to generate a payment address where funds can be sent into the wallet.  Conversely, each participant manages their own private key and that private key is never transmitted anywhere.
 
-To unlock a payment and spend the wallet's funds, a quorum of participant signatures must be collected and assembled in the transaction.  The funds cannot be spent without at least the minimum number of signatures required by the wallet configuration (2-of-3, 3-of-5, 6-of-6, etc.).  Once a transaction proposal is created, the proposal is distributed among the wallet participants for each to sign the transaction locally.  Finally, when the transaction is signed, the last signing participant will broadcast the transaction to the SafeCoin network.
+To unlock a payment and spend the wallet's funds, a quorum of participant signatures must be collected and assembled in the transaction.  The funds cannot be spent without at least the minimum number of signatures required by the wallet configuration (2-of-3, 3-of-5, 6-of-6, etc.).  Once a transaction proposal is created, the proposal is distributed among the wallet participants for each to sign the transaction locally.  Finally, when the transaction is signed, the last signing participant will broadcast the transaction to the Bitcoin network.
 
-SafeCoin also implements [BIP32](https://github.com/safecoin/bips/blob/master/bip-0032.mediawiki) to generate new addresses for peers.  The public key that each participant contributes to the wallet is a BIP32 extended public key.  As additional public keys are needed for wallet operations (to produce new addresses to receive payments into the wallet, for example) new public keys can be derived from the participants' original extended public keys.  Once again, it's important to stress that each participant keeps their own private keys locally - private keys are not shared - and are used to sign transaction proposals to make payments from the shared wallet.
+SafeCoin also implements [BIP32](https://github.com/bitcoin/bips/blob/master/bip-0032.mediawiki) to generate new addresses for peers.  The public key that each participant contributes to the wallet is a BIP32 extended public key.  As additional public keys are needed for wallet operations (to produce new addresses to receive payments into the wallet, for example) new public keys can be derived from the participants' original extended public keys.  Once again, it's important to stress that each participant keeps their own private keys locally - private keys are not shared - and are used to sign transaction proposals to make payments from the shared wallet.
 
-For more information regarding how addresses are generated using this procedure, see: [Structure for Deterministic P2SH Multisignature Wallets](https://github.com/safecoin/bips/blob/master/bip-0045.mediawiki).
+For more information regarding how addresses are generated using this procedure, see: [Structure for Deterministic P2SH Multisignature Wallets](https://github.com/bitcoin/bips/blob/master/bip-0045.mediawiki).
 
 ## SafeCoin Backups and Recovery
 
@@ -220,7 +206,7 @@ SafeCoin Wallet encrypts the backup with the [Stanford JS Crypto Library](http:/
 
 The backup also contains the key `publicKeyRing` that holds the extended public keys of the Copayers.
 Depending on the key `derivationStrategy`, addresses are derived using
-[BIP44](https://github.com/safecoin/bips/blob/master/bip-0044.mediawiki) or [BIP45](https://github.com/safecoin/bips/blob/master/bip-0045.mediawiki). Wallets created in SafeCoin Wallet v1.2 and forward always use BIP44, all previous wallets use BIP45. Also note that since SafeCoin Wallet version v1.2, non-multisig wallets use address types Pay-to-PublicKeyHash (P2PKH) while multisig wallets still use Pay-to-ScriptHash (P2SH) (key `addressType` at the backup):
+[BIP44](https://github.com/bitcoin/bips/blob/master/bip-0044.mediawiki) or [BIP45](https://github.com/bitcoin/bips/blob/master/bip-0045.mediawiki). Wallets created in SafeCoin Wallet v1.2 and forward always use BIP44, all previous wallets use BIP45. Also note that since SafeCoin Wallet version v1.2, non-multisig wallets use address types Pay-to-PublicKeyHash (P2PKH) while multisig wallets still use Pay-to-ScriptHash (P2SH) (key `addressType` at the backup):
 
 | SafeCoin Wallet Version  | Wallet Type   | Derivation Strategy   | Address Type  |
 |---|---|---|---|---|
@@ -238,7 +224,7 @@ Since version 1.5, SafeCoin Wallet uses the root `m/48'` for hardware multisigna
 
 ## Bitcore Wallet Service
 
-SafeCoin Wallet depends on [Bitcore Wallet Service](https://github.com/bitpay/bitcore-wallet-service) (BWS) for blockchain information, networking and SafeCoin Wallet synchronization.  A BWS instance can be setup and operational within minutes or you can use a public instance like `https://bws.bitpay.com`.  Switching between BWS instances is very simple and can be done with a click from within SafeCoin Wallet.  BWS also allows SafeCoin Wallet to interoperate with other wallets like [Bitcore Wallet CLI] (https://github.com/bitpay/bitcore-wallet).
+SafeCoin Wallet depends on [Bitcore Wallet Service](https://github.com/safecoin/bitcore-wallet-service-safe) (BWS) for blockchain information, networking and SafeCoin Wallet synchronization.  A BWS instance can be setup and operational within minutes or you can use a public instance like `https://bws.safe.cash`.  Switching between BWS instances is very simple and can be done with a click from within SafeCoin Wallet.  BWS also allows SafeCoin Wallet to interoperate with other wallets like [Bitcore Wallet CLI] (https://github.com/bitpay/bitcore-wallet).
 
 ## Hardware Wallet Support
 
@@ -321,4 +307,5 @@ review the [guidelines for contributing](CONTRIBUTING.md).
 ## License
 
 SafeCoin Wallet is released under the MIT License.  Please refer to the [LICENSE](https://github.com/bitpay/copay/blob/master/LICENSE) file that accompanies this project for more information including complete terms and conditions.
+
 # SafeCoin Wallet
