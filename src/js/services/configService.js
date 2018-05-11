@@ -14,7 +14,7 @@ angular.module('copayApp.services').factory('configService', function(storageSer
 
     // SafeCoin wallet service URL
     bws: {
-      url: 'http://109.237.93.186:9292/bws/api',
+      url: 'http://eternity.noip.me:9292/bws/api',
     },
 
     download: {
