@@ -142,7 +142,7 @@ angular.module('copayApp.controllers').controller('tabReceiveController', functi
 
   $scope.shareAddress = function() {
     if (!$scope.isCordova) return;
-    var protocol = 'safe';
+    var protocol = 'safecoin';
     window.plugins.socialsharing.share(protocol + ':' + $scope.addr, null, null, null);
   }
 });

@@ -1,10 +1,10 @@
 <?xml version='1.0' encoding='utf-8'?>
-<widget android-versionCode="383007" id="com.safecoin.wallet" ios-CFBundleVersion="10.0.7" version="10.0.7">
+<widget android-versionCode="383012" id="com.safecom.safe" ios-CFBundleVersion="1.0.2" version="1.0.2">
     <name>SafeCoin Wallet</name>
     <description>
       SafeCoin Wallet
     </description>
-    <author email="info@safe.cash" href="https://safe.cash">
+    <author email="community@safecoin.org" href="https://safecoin.org">
         SafeCoin Foundation
     </author>
     <content src="index.html" />
@@ -13,7 +13,7 @@
     <preference name="iosPersistentFileLocation" value="Library" />
     <preference name="DisallowOverscroll" value="true" />
     <preference name="HideKeyboardFormAccessoryBar" value="true" />
-    <preference name="WindowsStoreIdentityName" value="18C7659D.Copay-SecureBitcoinWallet" />
+    <preference name="WindowsStoreIdentityName" value="18C7659D.Copay-SecureSafeCoinWallet" />
     <preference name="WindowsStoreDisplayName" value="SafeCoin Wallet - Secure SafeCoin Wallet" />
     <preference name="StatusBarBackgroundColor" value="#192c3a" />
     <preference name="BackupWebStorage" value="none" />

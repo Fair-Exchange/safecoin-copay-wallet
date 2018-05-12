@@ -46,7 +46,7 @@ angular.module('copayApp.controllers').controller('customAmountController', func
       $scope.amountUnitStr = parsedAmount.amountUnitStr;
 
       if (currency != 'SAFE') {
-        // Convert to SAFE
+        // Convert to SAFE or BCH
         var config = configService.getSync().wallet.settings;
         var amountUnit = txFormatService.satToUnit(parsedAmount.amountSat);
         var safeParsedAmount = txFormatService.parseAmount($scope.wallet.coin, amountUnit, $scope.wallet.coin);
@@ -54,7 +54,7 @@ angular.module('copayApp.controllers').controller('customAmountController', func
         $scope.amountBtc = safeParsedAmount.amount;
         $scope.altAmountStr = safeParsedAmount.amountUnitStr;
       } else {
-        $scope.amountBtc = amount; // SAFE
+        $scope.amountBtc = amount; // SAFE or BCH
         $scope.altAmountStr = txFormatService.formatAlternativeStr($scope.wallet.coin, parsedAmount.amountSat);
       }
     });
@@ -69,12 +69,12 @@ angular.module('copayApp.controllers').controller('customAmountController', func
 
   $scope.shareAddress = function() {
     if (!platformInfo.isCordova) return;
-    var data = 'safe:' + $scope.address + '?amount=' + $scope.amountBtc;
+    var data = 'safecoin:' + $scope.address + '?amount=' + $scope.amountBtc;
     window.plugins.socialsharing.share(data, null, null, null);
   }
 
   $scope.copyToClipboard = function() {
-    return 'safe:' + $scope.address + '?amount=' + $scope.amountBtc;
+    return 'safecoin:' + $scope.address + '?amount=' + $scope.amountBtc;
   };
 
 });

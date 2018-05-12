@@ -23,9 +23,9 @@ angular.module('copayApp.services').factory('buyAndSellService', function($log, 
 
     if (linkedServices.length == 0) {
       nextStepsService.register({
-        title: 'Buy or Sell Bitcoin',
+        title: 'Buy or Sell SafeCoin',
         name: 'buyandsell',
-        icon: 'icon-buy-bitcoin',
+        icon: 'icon-buy-safecoin',
         sref: 'tabs.buyandsell',
       });
     } else {

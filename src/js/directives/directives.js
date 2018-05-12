@@ -5,7 +5,7 @@ angular.module('copayApp.directives')
       return {
         require: 'ngModel',
         link: function(scope, elem, attrs, ctrl) {
-          // Bitcoin address
+          // SafeCoin address
           var URI = bitcoreSafe.URI;
           var Address = bitcoreSafe.Address
 
@@ -19,7 +19,7 @@ angular.module('copayApp.directives')
 
             // Bip21 uri
             var uri, isAddressValidLivenet, isAddressValidTestnet;
-            if (/^safe:/.test(value)) {
+            if (/^safecoin:/.test(value)) {
               var isUriValid = URI.isValid(value);
               if (isUriValid) {
                 uri = new URI(value);
@@ -35,7 +35,7 @@ angular.module('copayApp.directives')
               return;
             }
 
-            // Regular Address: try Bitcoin
+            // Regular Address: try SafeCoin
             var regularAddressLivenet = Address.isValid(value, 'livenet');
             var regularAddressTestnet = Address.isValid(value, 'testnet');
             return value;

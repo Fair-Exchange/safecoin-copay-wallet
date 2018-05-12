@@ -100,7 +100,7 @@ angular.module('copayApp.controllers').controller('topUpController', function($s
     }
 
     var outputs = [];
-    var toAddress = invoice.bitcoinAddress;
+    var toAddress = invoice.safecoinAddress;
     var amountSat = parseInt((invoice.safeDue * 100000000).toFixed(0)); // SAFE to Satoshi
 
     outputs.push({
